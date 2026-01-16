@@ -1,27 +1,27 @@
-﻿using System.Net.Http.Headers;
+﻿using AzureFunctions.Controllers;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.Extensions.Options;
+using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Text;
 using System.Text.Encodings.Web;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.Extensions.Options;
 
 namespace AzureFunctions.Authentication
 {
-    public class BasicAuthenticationHandler: AuthenticationHandler<AuthenticationSchemeOptions>
+    public class BasicAuthenticationHandler(IOptionsMonitor<AuthenticationSchemeOptions> options, ILoggerFactory logger, UrlEncoder encoder, ISystemClock clock, IConfiguration config, ILogger<AzureFunctionApi> Log) : AuthenticationHandler<AuthenticationSchemeOptions>(options, logger, encoder, clock)
     {
-        private readonly IConfiguration _config;
-        
-        public BasicAuthenticationHandler(IOptionsMonitor<AuthenticationSchemeOptions> options, ILoggerFactory logger, UrlEncoder encoder, ISystemClock clock, IConfiguration config) 
-            : base(options, logger, encoder, clock)
-        {
-            _config = config;
-        }
-
         protected override async Task<AuthenticateResult> HandleAuthenticateAsync()
         {
-            if (!Request.Headers.ContainsKey("Authorization"))
-                return AuthenticateResult.Fail("Missing Authorization Header");
+            if (Request.Path.Value.Contains("swagger"))
+            {
+                return AuthenticateResult.NoResult();
+            }
 
+            if (!Request.Headers.ContainsKey("Authorization"))
+            {
+                return AuthenticateResult.Fail("Missing Authorization Header");
+            }
+                
             try
             {
                 var authHeader = AuthenticationHeaderValue.Parse(Request.Headers["Authorization"]);
@@ -37,10 +37,12 @@ namespace AzureFunctions.Authentication
                 var password = credentials[1];
 
                 // check username and password
-                if (username != _config["Credentials:Username"] || 
-                    password != _config["Credentials:Password"])
+                if (username != config["Credentials:Username"] ||
+                    password != config["Credentials:Password"])
+                {
                     return AuthenticateResult.Fail("Invalid Username or Password");
-
+                }
+                
                 var claims = new[] { new Claim(ClaimTypes.Name, username) };
                 var identity = new ClaimsIdentity(claims, Scheme.Name);
                 var principal = new ClaimsPrincipal(identity);
