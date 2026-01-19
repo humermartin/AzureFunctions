@@ -5,52 +5,67 @@ namespace AzureFunctions.Repository
     public class RainbowInvoiceLine
     {
         [Name("invoiceLine")]
-        public int InvoiceLine { get; set; }
+        public int? InvoiceLine { get; set; }
 
         [Name("invoiceCreationDate")]
-        public DateTime InvoiceCreationDate { get; set; }
+        public DateTime? InvoiceCreationDate { get; set; }
 
         [Name("invoicePeriod")]
         public string InvoicePeriod { get; set; }
 
-        [Name("invoiceReference")]
-        public string InvoiceReference { get; set; }
+        [Name("invoiceNumber")]
+        public string InvoiceNumber { get; set; }
 
-        [Name("exportReference")]
-        public string ExportReference { get; set; }
+        [Name("fileName")]
+        public string FileName { get; set; }
 
-        [Name("bp1TCRDId")]
-        public string Bp1TCRDId { get; set; }
+        [Name("partnerTier1TechnicalId")]
+        public string  PartnerTier1TechnicalId { get; set; }
 
-        [Name("bp1TApplicantNumber")]
-        public string Bp1TApplicantNumber { get; set; }
+        [Name("partnerTier1CRDId")]
+        public int? PartnerTier1CRDId { get; set; }
 
-        [Name("bp1TApplicantName")]
-        public string Bp1TApplicantName { get; set; }
+        [Name("partnerTier1ApplicantNumber")]
+        public int? PartnerTier1ApplicantNumber { get; set; }
 
-        [Name("bp2TCRDId")]
-        public string Bp2TCRDId { get; set; }
+        [Name("partnerTier1ApplicantName")]
+        public string PartnerTier1ApplicantName { get; set; }
 
-        [Name("bp2TApplicantNumber1")]
-        public string Bp2TApplicantNumber1 { get; set; }
+        [Name("partnerTier2TechnicalId")]
+        public string PartnerTier2TechnicalId { get; set; }
 
-        [Name("bp2TApplicantNumber2")]
-        public string Bp2TApplicantNumber2 { get; set; }
+        [Name("partnerTier2CRDId")]
+        public string PartnerTier2CRDId { get; set; }
 
-        [Name("bp2TApplicantName")]
-        public string Bp2TApplicantName { get; set; }
+        [Name("partnerTier2Reference")]
+        public string PartnerTier2Reference { get; set; }
 
-        [Name("endCustomerCompanyId")]
-        public string EndCustomerCompanyId { get; set; }
+        [Name("partnerTier2AdditionalReference")]
+        public string PartnerTier2AdditionalReference { get; set; }
 
-        [Name("endCustomerCompanyId1ByBp")]
-        public string EndCustomerCompanyId1ByBp { get; set; }
+        [Name("partnerTier2Name")]
+        public string PartnerTier2Name { get; set; }
 
-        [Name("endCustomerCompanyId2ByBp")]
-        public string EndCustomerCompanyId2ByBp { get; set; }
+        [Name("customerTechnicalId")]
+        public string CustomerTechnicalId { get; set; }
 
-        [Name("endCustomerCompanyName")]
-        public string EndCustomerCompanyName { get; set; }
+        [Name("customerReference")]
+        public string CustomerReference { get; set; }
+
+        [Name("customerAdditionalReference")]
+        public string CustomerAdditionalReference { get; set; }
+
+        [Name("customerName")]
+        public string CustomerName { get; set; }
+
+        [Name("subscriptionNumber")]
+        public string SubscriptionNumber { get; set; }
+
+        [Name("purchaseOrderNumber")]
+        public string PurchaseOrderNumber { get; set; }
+
+        [Name("additionalPurchaseOrderNumber")]
+        public string AdditionalPurchaseOrderNumber { get; set; }
 
         [Name("aleServiceReference")]
         public string AleServiceReference { get; set; }
@@ -61,64 +76,74 @@ namespace AzureFunctions.Repository
         [Name("rainbowServiceDescription")]
         public string RainbowServiceDescription { get; set; }
 
-        [Name("subscriptionReference")]
-        public string SubscriptionReference { get; set; }
+        [Name("priceListReference")]
+        public string PriceListReference { get; set; }
 
-        [Name("empty1")]
-        public string Empty1 { get; set; }
+        [Name("commercialProgram")]
+        public string CommercialProgram { get; set; }
 
-        [Name("empty2")]
-        public string Empty2 { get; set; }
+        [Name("unProratedWplPricePerUnit")]
+        public decimal? UnProratedWplPricePerUnit { get; set; }
 
-        [Name("empty3")]
-        public string Empty3 { get; set; }
+        [Name("contractAutoRenew")]
+        public string ContractAutoRenew { get; set; }
 
-        [Name("empty4")]
-        public string Empty4 { get; set; }
+        [Name("contractRenewDate")]
+        public DateTime? ContractRenewDate { get; set; }
 
         [Name("unit")]
         public string Unit { get; set; }
 
         [Name("volume")]
-        public string Volume { get; set; }
+        public int? Volume { get; set; }
 
         [Name("wplPricePerUnit")]
-        public string WplPricePerUnit { get; set; }
+        public decimal? WplPricePerUnit { get; set; }
 
         [Name("wplPriceTotal")]
-        public string WplPriceTotal { get; set; }
+        public decimal? WplPriceTotal { get; set; }
 
         [Name("categoryCode")]
         public string CategoryCode { get; set; }
 
-        [Name("bp1TDiscountValue")]
-        public string Bp1TDiscountValue { get; set; }
+        [Name("partnerTier1DiscountValue")]
+        public decimal? PartnerTier1DiscountValue { get; set; }
 
-        [Name("bp1TNetUnitValue")]
-        public string Bp1TNetUnitValue { get; set; }
+        [Name("partnerTier1NetUnitValue")]
+        public decimal? PartnerTier1NetUnitValue { get; set; }
 
-        [Name("bp1TNetTotalValue")]
-        public string Bp1TNetTotalValue { get; set; }
+        [Name("partnerTier1NetTotalValue")]
+        public decimal? PartnerTier1NetTotalValue { get; set; }
 
-        [Name("bp2TDiscountValue")]
-        public string Bp2TDiscountValue { get; set; }
+        [Name("partnerTier2DiscountValue")]
+        public decimal? PartnerTier2DiscountValue { get; set; }
 
-        [Name("bp2TNetUnitValue")]
-        public string Bp2TNetUnitValue { get; set; }
+        [Name("partnerTier2NetUnitValue")]
+        public decimal? PartnerTier2NetUnitValue { get; set; }
 
-        [Name("bp2TNetTotalValue")]
-        public string Bp2TNetTotalValue { get; set; }
+        [Name("partnerTier2NetTotalValue")]
+        public decimal? PartnerTier2NetTotalValue { get; set; }
 
-        [Name("endCustomerDiscountValue")]
-        public string EndCustomerDiscountValue { get; set; }
+        [Name("customerDiscountValue")]
+        public decimal? CustomerDiscountValue { get; set; }
 
-        [Name("endCustomerNetUnitValue")]
-        public string EndCustomerNetUnitValue { get; set; }
+        [Name("customerNetUnitValue")]
+        public decimal? CustomerNetUnitValue { get; set; }
 
-        [Name("endCustomerNetTotalValue")]
-        public string EndCustomerNetTotalValue { get; set; }
+        [Name("customerNetTotalValue")]
+        public decimal? CustomerNetTotalValue { get; set; }
 
         [Name("currency")]
         public string Currency { get; set; }
+
+        [Name("subscriptionCreationDate")]
+        public DateTime? SubscriptionCreationDate { get; set; }
+
+        [Name("subscriptionLastRenewalDate")]
+        public DateTime? SubscriptionLastRenewalDate { get; set; }
+
+        [Name("businessCountry")]
+        public string BusinessCountry { get; set; }
+
     }
 }

@@ -1,0 +1,439 @@
+[
+  {
+    "sid": 164,
+    "aleServiceReference": "3EY95101AA",
+    "a1BillItemId": "135616",
+    "rainbiowServiceID": "RB-Business",
+    "rainbowServiceDescription": "Rainbow Business 1 User 1 Month",
+    "billText": "Rainbow Business",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 166,
+    "aleServiceReference": "3EY95102AA",
+    "a1BillItemId": "135631",
+    "rainbiowServiceID": "RB-Enterprise",
+    "rainbowServiceDescription": "Rainbow Enterprise 1 User 1 Month",
+    "billText": "Rainbow Enterprise",
+    "billcycle": 1,
+    "isCategory": "enterprise"
+    
+  },
+  {
+    "sid": 167,
+    "aleServiceReference": "3EY95101AD",
+    "a1BillItemId": "135621",
+    "rainbiowServiceID": "RB-Business-3Y",
+    "rainbowServiceDescription": "Rainbow Business 1 User 3 Years",
+    "billText": "Rainbow Business 3 Jahre",
+    "billcycle": 36,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 168,
+    "aleServiceReference": "3EY95004AA",
+    "a1BillItemId": "135646",
+    "rainbiowServiceID": "RB-Conference",
+    "rainbowServiceDescription": "Conference",
+    "billText": "Rainbow Conference Service",
+    "billcycle": 1,
+    "isCategory": "conferencing"
+    
+  },
+  {
+    "sid": 169,
+    "aleServiceReference": "3EY95007AA",
+    "a1BillItemId": "140487",
+    "rainbiowServiceID": "RB-Voice-Enterprise-Demo",
+    "rainbowServiceDescription": "Rainbow Voice Enterprise Demo",
+    "billText": "RB-Voice-Enterprise-Demo",
+    "billcycle": 1,
+    "isCategory": "enterprise"
+    
+  },
+  {
+    "sid": 170,
+    "aleServiceReference": "3EY95306AA",
+    "a1BillItemId": "140497",
+    "rainbiowServiceID": "RB-Voice-Business-Custom",
+    "rainbowServiceDescription": "Rainbow Voice Business Custom",
+    "billText": "RB-Voice-Enterprise-Custom",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 171,
+    "aleServiceReference": "3EY95102AF",
+    "a1BillItemId": "140514",
+    "rainbiowServiceID": "RB-Enterprise-5Y",
+    "rainbowServiceDescription": "Rainbow Enterprise 1 User 5 Years",
+    "billText": "Rainbow Enterprise 5 Jahre",
+    "billcycle": 60,
+    "isCategory": "enterprise"
+    
+  },
+  {
+    "sid": 172,
+    "aleServiceReference": "3EY95101AF",
+    "a1BillItemId": "140472",
+    "rainbiowServiceID": "RB-Business-5Y",
+    "rainbowServiceDescription": "Rainbow Business 1 User 5 Years",
+    "billText": "Rainbow Business 5 Jahre",
+    "billcycle": 60,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 173,
+    "aleServiceReference": "3EY95101AB",
+    "a1BillItemId": "135626",
+    "rainbiowServiceID": "RB-Business-1Y",
+    "rainbowServiceDescription": "Rainbow Business 1 User 1 Year",
+    "billText": "Rainbow Business 1 Jahr",
+    "billcycle": 12,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 174,
+    "aleServiceReference": "3EY95102AD",
+    "a1BillItemId": "135636",
+    "rainbiowServiceID": "RB-Enterprise-3Y",
+    "rainbowServiceDescription": "Rainbow Enterprise 1 User 3 Years",
+    "billText": "Rainbow Enterprise 3 Jahre",
+    "billcycle": 36,
+    "isCategory": "enterprise"
+    
+  },
+  {
+    "sid": 175,
+    "aleServiceReference": "3EY95105AD",
+    "a1BillItemId": "140512",
+    "rainbiowServiceID": "RB-Room-3Y",
+    "rainbowServiceDescription": "Rainbow Room 1 User 3 Years",
+    "billText": "Rainbow Room 3 Jahre",
+    "billcycle": 36,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 176,
+    "aleServiceReference": "3EY95102AB",
+    "a1BillItemId": "135641",
+    "rainbiowServiceID": "RB-Enterprise-1Y",
+    "rainbowServiceDescription": "Rainbow Enterprise 1 User 1 Year",
+    "billText": "Rainbow Enterprise 1 Jahr",
+    "billcycle": 12,
+    "isCategory": "enterprise"
+    
+  },
+  {
+    "sid": 177,
+    "aleServiceReference": "3EY95103AB",
+    "a1BillItemId": "135646",
+    "rainbiowServiceID": "RB-Enterprise-Conf-1Y",
+    "rainbowServiceDescription": "Rainbow Enterprise Conference 1 User 1 Year",
+    "billText": "Rainbow Ent. Conferencing 1 Jahr",
+    "billcycle": 12,
+    "isCategory": "conferencing"
+    
+  },
+  {
+    "sid": 178,
+    "aleServiceReference": "3EY95106AB",
+    "a1BillItemId": "140482",
+    "rainbiowServiceID": "RB-Connect-1Y",
+    "rainbowServiceDescription": "Rainbow Connect 1 User 1 Year",
+    "billText": "Rainbow Connect 1 Jahr",
+    "billcycle": 12,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 179,
+    "aleServiceReference": "3EY95106AA",
+    "a1BillItemId": "140477",
+    "rainbiowServiceID": "RB-Connect",
+    "rainbowServiceDescription": "Rainbow Connect 1 User 1 Month",
+    "billText": "Rainbow Connect",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 180,
+    "aleServiceReference": "3EY95301AA",
+    "a1BillItemId": "140497",
+    "rainbiowServiceID": "RB-Voice-Business",
+    "rainbowServiceDescription": "Rainbow Voice Business 1 User 1 Month",
+    "billText": "Rainbow Business Voice",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 181,
+    "aleServiceReference": "3EY95020AA",
+    "a1BillItemId": "140497",
+    "rainbiowServiceID": "RB-Voice-Attendant-Custom",
+    "rainbowServiceDescription": "Rainbow Voice Attendant Custom",
+    "billText": "Rainbow Voice Attendant",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 182,
+    "aleServiceReference": "3EY95012AA",
+    "a1BillItemId": "141103",
+    "rainbiowServiceID": "RB-Alert-Custom",
+    "rainbowServiceDescription": "Rainbow Alert Custom",
+    "billText": "Rainbow Alert",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 183,
+    "aleServiceReference": "3EY95308AA",
+    "a1BillItemId": "141103",
+    "rainbiowServiceID": "RB-Alert",
+    "rainbowServiceDescription": "Rainbow Alert 1 User 1 Month",
+    "billText": "Rainbow Alert",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 184,
+    "aleServiceReference": "3EY95300AA",
+    "a1BillItemId": "140487",
+    "rainbiowServiceID": "RB-Voice-Enterprise",
+    "rainbowServiceDescription": "Rainbow Voice Enterprise 1 User 1 Month",
+    "billText": "RB-Voice-Enterprise",
+    "billcycle": 1,
+    "isCategory": "enterprise"
+    
+  },
+  {
+    "sid": 186,
+    "aleServiceReference": "3EY95124AD",
+    "a1BillItemId": "135621",
+    "rainbiowServiceID": "RB-Business-3Y",
+    "rainbowServiceDescription": "Rainbow Business 1 User 3 Years",
+    "billText": "Rainbow Business 3 Jahre",
+    "billcycle": 36,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 187,
+    "aleServiceReference": "3EY95125AD",
+    "a1BillItemId": "135636",
+    "rainbiowServiceID": "RB-Enterprise-3Y",
+    "rainbowServiceDescription": "Rainbow Enterprise 1 User 3 Years",
+    "billText": "Rainbow Enterprise 3 Jahre",
+    "billcycle": 36,
+    "isCategory": "enterprise"
+    
+  },
+  {
+    "sid": 188,
+    "aleServiceReference": "3EY95124AA",
+    "a1BillItemId": "135616",
+    "rainbiowServiceID": "RB-Business",
+    "rainbowServiceDescription": "Rainbow Business 1 User 1 Month",
+    "billText": "Rainbow Business",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 189,
+    "aleServiceReference": "3EY95125AA",
+    "a1BillItemId": "135631",
+    "rainbiowServiceID": "RB-Enterprise",
+    "rainbowServiceDescription": "Rainbow Enterprise 1 User 1 Month",
+    "billText": "Rainbow Entrerprise",
+    "billcycle": 1,
+    "isCategory": "enterprise"
+    
+  },
+  {
+    "sid": 190,
+    "aleServiceReference": "3EY95121AA",
+    "a1BillItemId": "135646",
+    "rainbiowServiceID": "RB-Dial-In-Per-Use",
+    "rainbowServiceDescription": "RAINBOW DIAL IN - 1 MONTH",
+    "billText": "Rainbow dial in per use",
+    "billcycle": 1,
+    "isCategory": "conferencing"
+    
+  },
+  {
+    "sid": 193,
+    "aleServiceReference": "3EY95124AF",
+    "a1BillItemId": "140472",
+    "rainbiowServiceID": "RB-Business-5Y",
+    "rainbowServiceDescription": "Rainbow Business 1 User 5 Years",
+    "billText": "Rainbow Business 5 Jahre",
+    "billcycle": 60,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 194,
+    "aleServiceReference": "3EY95124AB",
+    "a1BillItemId": "135626",
+    "rainbiowServiceID": "RB-Business-1Y",
+    "rainbowServiceDescription": "Rainbow Business 1 User 1 Year",
+    "billText": "Rainbow Business 1 Jahr",
+    "billcycle": 12,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 195,
+    "aleServiceReference": "3EY95125AF",
+    "a1BillItemId": "140514",
+    "rainbiowServiceID": "RB-Enterprise-5Y",
+    "rainbowServiceDescription": "Rainbow Enterprise 1 User 5 Years",
+    "billText": "Rainbow Enterprise 5 Jahre",
+    "billcycle": 60,
+    "isCategory": "enterprise"
+    
+  },
+  {
+    "sid": 196,
+    "aleServiceReference": "3EY95122AA",
+    "a1BillItemId": "135631",
+    "rainbiowServiceID": "RB-Enterprise-Dial-In-Pack",
+    "rainbowServiceDescription": "RAINBOW ENT DIAL IN PACK - 1 MONTH",
+    "billText": "Rainbow Enterprise Dial In",
+    "billcycle": 1,
+    "isCategory": "enterprise"
+    
+  },
+  {
+    "sid": 197,
+    "aleServiceReference": "3EY95125AB",
+    "a1BillItemId": "135641",
+    "rainbiowServiceID": "RB-Enterprise-1Y",
+    "rainbowServiceDescription": "Rainbow Enterprise 1 User 1 Year",
+    "billText": "Rainbow Enterprise 1 Jahr",
+    "billcycle": 12,
+    "isCategory": "enterprise"
+    
+  },
+  {
+    "sid": 198,
+    "aleServiceReference": "3EY95017AA",
+    "a1BillItemId": "a1id-cr",
+    "rainbiowServiceID": "RB-Classroom-Student-Custom",
+    "rainbowServiceDescription": "Rainbow Classroom Student Custom",
+    "billText": "",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 199,
+    "aleServiceReference": "3EY95018AA",
+    "a1BillItemId": "a1id-cr",
+    "rainbiowServiceID": "RB-Classroom-Teacher-Custom",
+    "rainbowServiceDescription": "Rainbow Classroom Teacher Custom",
+    "billText": "",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 200,
+    "aleServiceReference": "3EY95026AA",
+    "a1BillItemId": "143891",
+    "rainbiowServiceID": "RB-Attendant-Custom",
+    "rainbowServiceDescription": "Rainbow Attendant Custom",
+    "billText": "Rainbow Attendant",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 201,
+    "aleServiceReference": "3EY95120AA",
+    "a1BillItemId": "143891",
+    "rainbiowServiceID": "RB-Voice-Attendant",
+    "rainbowServiceDescription": "Rainbow Voice Attendant 1 User 1 Month",
+    "billText": "Rainbow Attendant",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 202,
+    "aleServiceReference": "3EY95105AA",
+    "a1BillItemId": "140507",
+    "rainbiowServiceID": "RB-Room",
+    "rainbowServiceDescription": "Rainbow Room 1 User 1 Month",
+    "billText": "Rainnbow Room",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 203,
+    "aleServiceReference": "3EY95126AA",
+    "a1BillItemId": "143891",
+    "rainbiowServiceID": "RB-Attendant",
+    "rainbowServiceDescription": "Rainbow Attendant 1 User 1 Month",
+    "billText": "Rainbow Attendant",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 204,
+    "aleServiceReference": "3EY95127AA",
+    "a1BillItemId": "a1id-voicePhone",
+    "rainbiowServiceID": "RB-Voice-Phone",
+    "rainbowServiceDescription": "Rainbow Voice Phone 1 User 1 Month",
+    "billText": "",
+    "billcycle": 1,
+    "isCategory": "business"
+    
+  },
+  {
+    "sid": 205,
+    "aleServiceReference": "RB-Dial-In-Per-Use",
+    "a1BillItemId": "a1id",
+    "rainbiowServiceID": "RAINBOW DIAL IN - 1 MONTH",
+    "rainbowServiceDescription": "Austria-Inbound local access",
+    "billText": "",
+    "billcycle": 0,
+    "isCategory": "business"    
+  },
+  {
+    "sid": 206,
+    "aleServiceReference": "",
+    "a1BillItemId": "145820",
+    "rainbiowServiceID": "Rainbow Webinar Custom",
+    "rainbowServiceDescription": "",
+    "billText": "",
+    "billcycle": 0,
+    "isCategory": ""    
+  },
+  {
+    "sid": 207,
+    "aleServiceReference": "3EY95118AA",
+    "a1BillItemId": "145825",
+    "rainbiowServiceID": "Rainbow Webinar 500 monthly",
+    "rainbowServiceDescription": "Rainbow Webinar 500 1 Webinar 1 Month",
+    "billText": "Webinar 500",
+    "billcycle": 1,
+    "isCategory": "webinar"    
+  }
+]
